@@ -13,6 +13,7 @@ with player_id {
         case 9: other.honk_sfx = sound_get("snake_explosion") break; //SNAAAAAAAKE
         case 10: other.honk_sfx = sound_get("squack" + string(random_func_2(other.id mod 200, 2, true)+4)) break; //bird up
         case 11: other.honk_sfx = sound_get("sans_trombone") break; //sans
+	case 16: other.honk_sfx = sound_get("geese_reppuken") break; //geese howard
         
         default: other.honk_sfx = sound_get("honk_wt_0" + string(random_func_2(other.id mod 200, 3, true)+1)) break;
     }

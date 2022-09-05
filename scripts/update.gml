@@ -56,7 +56,8 @@ switch get_player_color(player) {
 	case 10: honk_sfx = sound_get("squack" + string(random_func_2(player, 3, true)+1)) break; //bird up
 	case 11: honk_sfx = sound_get("sans_speak") break; //sans
 	case 14: honk_sfx = sound_get("honk2_0" + string(random_func_2(player, 5, true)+1)) break; //player 2
-	
+	case 16: honk_sfx = sound_get("geese_0" + string(random_func_2(player, 3, true)+1)) break; //geese howard
+
 	default: honk_sfx = sound_get("honk_0" + string(random_func_2(player, 5, true)+1)) break;
 }
 

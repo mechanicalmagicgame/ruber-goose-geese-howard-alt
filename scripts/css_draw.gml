@@ -43,7 +43,7 @@ patch_ver = "1.21";
 patch_day = "2";
 patch_month = "APR";
  
-var num_alts = 16;
+var num_alts = 17;
 var alt_cur = get_player_color(player);
  
  
@@ -66,6 +66,7 @@ alt_name[12] = "Early Access";
 alt_name[13] = "Rainbow";
 alt_name[14] = "Player 2";
 alt_name[15] = "Wrastor";
+alt_name[16] = "Geese Howard";
  
  
  
